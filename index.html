@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GreenLine LLC | Independent General Contractor, Colorado</title>
-<meta name="description" content="GreenLine LLC is an independent, Class A licensed general contractor in Colorado. Residential remodels, new home builds and commercial construction. Request a free estimate.">
+<meta name="description" content="GreenLine LLC is an independent, Class A licensed general contractor serving Denver and the Colorado Front Range. Residential remodels, new home builds and commercial construction. Request a free estimate.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -109,6 +109,13 @@
   @media(max-width:900px){.gallery{grid-template-columns:1fr 1fr}}
   @media(max-width:560px){.gallery{grid-template-columns:1fr}}
 
+  /* area */
+  .area{background:var(--soft)}
+  .area .wrap{display:grid;grid-template-columns:1fr 1.3fr;gap:64px;align-items:center}
+  .towns{display:flex;flex-wrap:wrap;gap:10px}
+  .towns span{padding:10px 16px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--green);font-weight:600;font-size:15px}
+  @media(max-width:900px){.area .wrap{grid-template-columns:1fr;gap:32px}}
+
   /* contact */
   .contact{display:flex;flex-wrap:wrap;border-top:1px solid var(--line)}
   .contact .form{flex:3 1 480px;padding:64px 48px;background:var(--soft)}
@@ -139,6 +146,7 @@
     <a href="#services">Services</a>
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
+    <a href="#area">Service Area</a>
     <a href="#contact" class="btn">Free Estimate</a>
   </nav>
 </header>
@@ -163,7 +171,7 @@
 
 <section class="mission" id="top">
   <div>
-    <div class="eyebrow">Independent General Contractor</div>
+    <div class="eyebrow">Independent General Contractor · Denver &amp; Front Range</div>
     <h1>One builder. Start to finish.</h1>
     <p>GreenLine LLC is an independent, Class A licensed general contractor. When you hire GreenLine, you work directly with the owner — from the first walkthrough to the final walk-off.</p>
     <div class="rule"></div>
@@ -256,6 +264,17 @@
   </div>
 </section>
 
+<section class="pad area" id="area">
+  <div class="wrap">
+    <div class="head" style="margin-bottom:0">
+      <div class="eyebrow">Where We Work</div>
+      <h2>Denver metro &amp; the Front Range</h2>
+      <p>GreenLine takes on projects all along Colorado's Front Range. Don't see your town? Reach out — chances are we cover it.</p>
+    </div>
+    <div class="towns"><span>Denver</span><span>Boulder</span><span>Aurora</span><span>Lakewood</span><span>Arvada</span><span>Westminster</span><span>Broomfield</span><span>Littleton</span><span>Englewood</span><span>Highlands Ranch</span><span>Centennial</span><span>Golden</span><span>Parker</span><span>Castle Rock</span><span>Longmont</span><span>Louisville</span><span>Fort Collins</span><span>Loveland</span><span>Colorado Springs</span></div>
+  </div>
+</section>
+
 <section class="contact" id="contact">
   <div class="form">
     <h2>Start your project</h2>
@@ -291,7 +310,7 @@
 
 <footer>
   <span>© <span id="yr"></span> GreenLine LLC</span>
-  <span>Independent General Contractor · Colorado</span>
+  <span>Serving Denver &amp; the Front Range</span>
 </footer>
 
 <script>
