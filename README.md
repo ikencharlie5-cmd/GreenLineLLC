@@ -1,6 +1,6 @@
 # GreenLine LLC Website
 
-Single-page site for GreenLine LLC, a general contractor in Boulder County, CO.
+Single-page site for GreenLine LLC, an independent, Class A licensed general contractor in Colorado.
 
 ## Edit contact info
 Open `index.html`, scroll to the `CONFIG` block near the bottom, and set the real phone, email and hours. They update everywhere on the page.
